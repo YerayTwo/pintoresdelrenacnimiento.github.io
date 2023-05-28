@@ -1,0 +1,41 @@
+@charset "utf-8";
+body {
+	margin:99%
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-style: italic;
+  font-family: serif;
+  text-align:center;
+  background-color: black;
+  color:white;
+}
+.column {
+float: left;
+width: 20%;
+padding: 15px;
+box-sizing: border-box;
+    }
+.column img {
+width: 100%;
+height: auto;
+    }
+    
+.column p {
+text-align: center;
+font-size: 14px;
+}
+.clearfix::after {
+content: "";
+display: table;
+clear: both;
+}
+/*color de las columnas*/
+.column:nth-child(odd) {
+background-color:rgb(102,153,153, 0.6); 
+}
+.column:nth-child(even) {
+background-color:rgb(204,153,153, 0.6); 
+}
+

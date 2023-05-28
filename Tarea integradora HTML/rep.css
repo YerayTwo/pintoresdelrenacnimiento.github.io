@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+body{
+	font-family: Arial, sans-serif;
+	margin:95px;
+	background-image: url(Nueva%20carpeta/Caravaggio.jpg.png), url(Nueva%20carpeta/openmeup.jpg.jfif);
+	background-repeat: no-repeat;
+	background-position: bottom left, bottom right;
+	background-size: 35%, 33%
+}
+h1{
+	text-align:center;
+	font-family: "Times New Roman", serif;
+}
+nav{
+	text-align:center
+}
+nav span {
+  background-color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav span a {
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav span a:hover {
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  text-align:center;
+  background-color: black;
+  color: white;
+}
+
+.bosco{
+	background-image:url(imagenes%20utilizadas/elbosco.jpg);
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-color: rgb(102,153,153, 0.6);
+}
+.boc{
+	background-color: rgb(102,153,153, 0.6);
+	text-align:center;
+}
+.caravaggio{
+	background-image:url(imagenes%20utilizadas/caravaggio.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color: rgb(204,153,153, 0.6);
+}
+.caravac{
+		background-color: rgb(204,153,153, 0.6);
+		text-align:center;
+}
+.tiziano{
+	background-image:url(imagenes%20utilizadas/tiziano.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color: rgb(102,153,153, 0.6);
+}
+.tic{
+	background-color: rgb(102,153,153, 0.6);
+	text-align:center;
+}
+.tintoretto{
+	background-image:url(imagenes%20utilizadas/tintoretto.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color: rgb(204,153,153, 0.6);
+}
+.tictoc{
+		background-color: rgb(204,153,153, 0.6);
+		text-align:center;
+}
+.donatello{
+	background-image:url(imagenes%20utilizadas/donatello.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color: rgb(102,153,153, 0.6);
+}
+.donac{
+		background-color: rgb(102,153,153, 0.6);
+		text-align:center;
+}
+article{
+	background-size: 30%;
+}
+footer{
+	text-align:center;
+}
+footer span {
+  background-color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+footer span a {
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer span a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+

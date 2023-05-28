@@ -1,0 +1,90 @@
+html{
+	font-size:20px;
+}
+body{
+	color:black;
+	background-color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	background-image: url(Nueva%20carpeta/reneisanse.jpeg), url(Nueva%20carpeta/fondo%20nubes%20etetico.jfif), 
+	url(Nueva%20carpeta/me%20transmite%20luz.jfif),  url(Nueva%20carpeta/angel%20fish.jfif), url(Nueva%20carpeta/Caravaggio.jpg.png), url(Nueva%20carpeta/la%20adoracion%20del%20los%20magos.jpg);
+	background-position:top, center top, left center, right center, bottom left, bottom right;
+	margin: 20;
+	background-repeat:no-repeat;
+	background-size: auto 9.5%,auto 35%,auto 25%, auto 25%, 35%, 35%;
+}
+header{
+	margin=0;
+	color:#FFF
+}
+h1{
+	font-size: 4rem; text-align: center;
+	 font:Georgia, "Times New Roman", Times, serif;
+	  font-family: apple chancery;
+} 
+
+.span1 { color:#CCC;
+	
+	/*Debajo de introduccion*/ 
+}
+.section1{
+	background-color:rgb(102,153,153, 0.6); margin: 0%;	
+}
+.textocen{
+	text-align:center;
+	background-color:#000;
+	color:#FFF
+	/*para los textos que quiero centrar*/
+}
+.image-orden{
+
+
+}
+
+.imgre{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.imgre:hover{
+	opacity:0.7;
+}
+sin-margen{
+	margin-left: 0%;
+}
+h2{
+	font-size: 1.2 rem;
+}
+h3{
+	font-size: 1rem; text-align:center
+}
+
+p{
+	text-align:justify
+}
+div.wrapper{
+	margin: 0 auto;
+	width: 80%;
+}
+footer{
+	text-align:center;
+}
+footer span {
+  background-color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+footer span a {
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer span a:hover {
+  background-color: white;
+  color: black;
+}
+
+
